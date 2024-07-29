@@ -6,8 +6,6 @@
    config = function()
       --telescope configuration
       local builtin = require("telescope.builtin")
-      vim.keymap.set('n', '<leader>f', builtin.find_files, {}) --whichkey this
-      vim.keymap.set('n', '<leader>g', builtin.live_grep, {}) --whichkey this
    end 
   },
    {
